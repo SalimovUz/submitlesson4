@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+body {
+  background: #414291;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  padding-top: 15%;
+
+  .table {
+    padding: 35px 40px;
+    border-radius: 12px;
+    width: 1100px;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .line {
+        display: flex;
+        gap: 10px;
+
+        h1 {
+          color: #fff;
+          font-family: poppins;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          background: rgb(52, 52, 228);
+          cursor: pointer;
+        }
+
+        h2 {
+          color: #000;
+          font-family: poppins;
+          font-weight: 500;
+          font-size: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    #line2 {
+      opacity: 0.3;
+    }
+
+    #line3 {
+      opacity: 0.3;
+    }
+
+    .submits {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .description {
+        #title {
+          color: #000;
+          font-family: poppins;
+          font-weight: 500;
+          font-size: 30px;
+          width: 550px;
+        }
+      }
+
+      .submit {
+        display: flex;
+        gap: 20px;
+
+        #back {
+          padding: 0 30px;
+          height: 60px;
+          background: rgb(134, 131, 131);
+          border-radius: 5px;
+          color: #000;
+          font-family: poppins;
+          font-weight: 500;
+          font-size: 20px;
+          cursor: pointer;
+          display: none;
+        }
+
+        #subm {
+          padding: 0 30px;
+          height: 60px;
+          background: rgb(134, 131, 131);
+          border-radius: 5px;
+          color: #000;
+          font-family: poppins;
+          font-weight: 500;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
